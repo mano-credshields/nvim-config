@@ -10,12 +10,7 @@ return {
         require('telescope').setup({
 						defaults = {
 								layout_strategy = "vertical",
-								layout_config = {
-									vertical = {
-										prompt_position = "top",
-										mirror = true,
-									},
-								},
+								layout_config = {},
 								mappings = {
 										i = {
 												["<esc>"] = actions.close
